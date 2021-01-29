@@ -1,0 +1,10 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/solutio2/public_html/
+    - /bin/cp -R api $DEPLOYPATH
+    - /bin/cp -R backend $DEPLOYPATH
+    - /bin/cp -R staticfiles $DEPLOYPATH
+    - /bin/cp -R templates
+    - /bin/cp requirements.txt
+    - pip3 install -r requirements.txt

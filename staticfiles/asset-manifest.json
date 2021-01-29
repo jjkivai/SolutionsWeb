@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.84ce4a97.chunk.css",
+    "main.js": "/static/js/main.f4870e37.chunk.js",
+    "main.js.map": "/static/js/main.f4870e37.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.c60b7f5c.js",
+    "runtime-main.js.map": "/static/js/runtime-main.c60b7f5c.js.map",
+    "static/js/2.13f9de54.chunk.js": "/static/js/2.13f9de54.chunk.js",
+    "static/js/2.13f9de54.chunk.js.map": "/static/js/2.13f9de54.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.84ce4a97.chunk.css.map": "/static/css/main.84ce4a97.chunk.css.map",
+    "static/js/2.13f9de54.chunk.js.LICENSE.txt": "/static/js/2.13f9de54.chunk.js.LICENSE.txt",
+    "static/js/main.f4870e37.chunk.js.LICENSE.txt": "/static/js/main.f4870e37.chunk.js.LICENSE.txt",
+    "static/media/ContactUsPhoto.6f2774b0.jpg": "/static/media/ContactUsPhoto.6f2774b0.jpg",
+    "static/media/DataServer.bed2accd.jpg": "/static/media/DataServer.bed2accd.jpg",
+    "static/media/Documents.358cb0c4.jpg": "/static/media/Documents.358cb0c4.jpg",
+    "static/media/LightsBackground.f634733a.jpg": "/static/media/LightsBackground.f634733a.jpg",
+    "static/media/PowerLines.8e783cdc.jpg": "/static/media/PowerLines.8e783cdc.jpg",
+    "static/media/Sunset.7921a46a.jpg": "/static/media/Sunset.7921a46a.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c60b7f5c.js",
+    "static/js/2.13f9de54.chunk.js",
+    "static/css/main.84ce4a97.chunk.css",
+    "static/js/main.f4870e37.chunk.js"
+  ]
+}
