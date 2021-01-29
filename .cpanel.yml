@@ -5,6 +5,6 @@ deployment:
     - /bin/cp -R api $DEPLOYPATH
     - /bin/cp -R backend $DEPLOYPATH
     - /bin/cp -R staticfiles $DEPLOYPATH
-    - /bin/cp -R templates
-    - /bin/cp requirements.txt
-    - pip3 install -r requirements.txt
+    - /bin/cp -R templates $DEPLOYPATH
+    - /bin/cp requirements.txt $DEPLOYPATH
+    - pip3 install -r $DEPLOYPATH/requirements.txt
