@@ -40,8 +40,8 @@ urlpatterns = [
     re_path("^(?!admin)(?!api)(?!media)(?!static).+$|^$", serve_react_page),
 ]
 
-handler500 = "backend.urls.serve_server_error_page"
-handler404 = "backend.urls.serve_error_page"
+#handler500 = "backend.urls.serve_server_error_page"
+#handler404 = "backend.urls.serve_error_page"
 
 
 if settings.DEBUG:

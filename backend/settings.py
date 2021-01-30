@@ -27,9 +27,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = config("SECRET_KEY")
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ["127.0.0.1", "localhost", "solutions-web.herokuapp.com"]
+ALLOWED_HOSTS = ["127.0.0.1", "localhost", "solutions-web.herokuapp.com", "solutionsgen.co.ke"]
 
 
 # Application definition
@@ -154,7 +154,7 @@ DEFAULT_FILE_STORAGE = "backend.storage_backends.MediaStorage"
 # MEDIA_URL = "/media/"
 # MEDIA_ROOT = BASE_DIR / "media"
 
-CORS_ALLOWED_ORIGINS = ["http://localhost:8000", "https://solutions-web.herokuapp.com"]
+CORS_ALLOWED_ORIGINS = ["http://localhost:8000", "https://solutions-web.herokuapp.com", "http://solutionsgen.co.ke",]
 REST_FRAMEWORK = {
     "DEFAULT_PARSER_CLASSES": [
         "rest_framework.parsers.JSONParser",
@@ -163,3 +163,7 @@ REST_FRAMEWORK = {
         "rest_framework.renderers.JSONRenderer",
     ],
 }
+SECURE_SSL_REDIRECT = True
+SESSION_COOKIE_SECURE = True
+CSRF_COOKIE_SECURE = True
+INSTALLED_APPS+= ["django_createsuperuser"]
