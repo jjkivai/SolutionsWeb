@@ -93,7 +93,7 @@ DATABASES = {
   'ENGINE': 'django.db.backends.postgresql_psycopg2',
   'NAME': 'solutio2_solutionsWeb',
   'USER': 'solutio2_Admin',
-  'PASSWORD': 'Sm@llv1lle'
+  'PASSWORD': 'Sm@llv1lle',
   'HOST': 'localhost',
   'PORT': '5432',
   }
