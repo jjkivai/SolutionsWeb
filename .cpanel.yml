@@ -8,4 +8,3 @@ deployment:
     - /bin/cp -R templates $DEPLOYPATH
     - /bin/cp requirements.txt $DEPLOYPATH
     - pip3 install -r $DEPLOYPATH/requirements.txt
-    - gunicorn $DEPLOYPATH/backend.wsgi --log-file weblogfile

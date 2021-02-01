@@ -83,11 +83,21 @@ WSGI_APPLICATION = "backend.wsgi.application"
 
 # Database
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
-
+'''
 default_dburl = "sqlite:///" + os.path.join(BASE_DIR, "db.sqlite3")
 
 DATABASES = {"default": config("DATABASE_URL", default=default_dburl, cast=dburl)}
-
+'''
+DATABASES = {
+  'default': {
+  'ENGINE': 'django.db.backends.postgresql_psycopg2',
+  'NAME': 'solutio2_solutionsWeb',
+  'USER': 'solutio2_Admin',
+  'PASSWORD': 'Sm@llv1lle'
+  'HOST': 'localhost',
+  'PORT': '5432',
+  }
+}
 
 # Password validation
 # https://docs.djangoproject.com/en/3.1/ref/settings/#auth-password-validators
